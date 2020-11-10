@@ -99,6 +99,8 @@ def hurricane_dictionary():
 
 
 pprint(hurricane_dictionary())
+
+
 # write your construct hurricane by year dictionary function here:
 
 
@@ -162,7 +164,6 @@ def hurricanes_most_deaths():
 
 pprint(hurricanes_most_deaths())
 
-
 # write your catgeorize by mortality function here:
 mortality_scale = {0: 0,
                    1: 100,
@@ -201,13 +202,13 @@ def hurricanes_most_damages():
 
 pprint(hurricanes_most_damages())
 
-
 # write your catgeorize by damage function here:
 damage_scale = {0: 0,
                 1: 100000000,
                 2: 1000000000,
                 3: 10000000000,
                 4: 50000000000}
+
 
 def damage_scale_rating():
     hurricane_dict = hurricane_dictionary()
@@ -220,5 +221,6 @@ def damage_scale_rating():
                 damage_dict[k].append(cane)
                 break
     return damage_dict
+
 
 pprint(damage_scale_rating())
