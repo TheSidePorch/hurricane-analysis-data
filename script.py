@@ -1,6 +1,8 @@
 from collections import defaultdict
 from pprint import pprint
 
+#codecamdemy practice
+
 # names of hurricanes
 names = ['Cuba I', 'San Felipe II Okeechobee', 'Bahamas', 'Cuba II', 'CubaBrownsville', 'Tampico', 'Labor Day',
          'New England', 'Carol', 'Janet', 'Carla', 'Hattie', 'Beulah', 'Camille', 'Edith', 'Anita', 'David', 'Allen',
